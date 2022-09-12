@@ -22,15 +22,15 @@ fnLabel.place(x=30, y=45)
 name = Label(root, font=('Terminal', 10), text='Bill Clinton Jordan')
 name.place(x=30, y=60)
 
-photo =ImageTk.PhotoImage(Image.open("/home/oduor/Pictures/e2.jpg").resize((150, 180), Image.ANTIALIAS))
+photo =ImageTk.PhotoImage(Image.open("Me.jpg").resize((150, 180), Image.ANTIALIAS)) 
 photoLabel = Label(image=photo)
 photoLabel.place(x=30, y=80)
 
-seal = ImageTk.PhotoImage(Image.open("/home/oduor/Pictures/coat-of-arms-of-kenya.jpg").resize((50, 50), Image.ANTIALIAS))
+seal = ImageTk.PhotoImage(Image.open("coat_of_arms.jpg").resize((50, 50), Image.ANTIALIAS))
 seaLabel = Label(image=seal)
 seaLabel.place(x=250, y=25)
 
-thumb = ImageTk.PhotoImage(Image.open("/home/oduor/Pictures/thumb.jpeg").resize((70, 70), Image.ANTIALIAS))
+thumb = ImageTk.PhotoImage(Image.open("thumb_print.jpeg").resize((70, 70), Image.ANTIALIAS))
 thumbLabel = Label(image=thumb)
 thumbLabel.place(x=420, y=200)
 
