@@ -4,6 +4,7 @@ from PIL import ImageTk, Image
 root = Tk()
 root.title("Kenya National ID.")
 root.geometry('500x280')
+root.resizeable(False, False)
 
 
 heading = Label(root, font=('Terminal', 15), text='Republic of Kenya')
